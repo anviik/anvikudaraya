@@ -21,8 +21,7 @@ export default function About() {
 
         <motion.div className="sm:col-span-3" variants={item}>
           <p className="text-pretty text-base leading-relaxed text-white/80">
-            I am a Computer Science and Engineering student who enjoys building polished interfaces and reliable systems.
-            I work with React, Python, and modern tooling. I lead student projects, contribute to research, and keep things simple.
+            Computer Science & Engineering + Cognitive Science double major at UC Merced. Passionate about building impactful software solutions and exploring the intersection of technology and human behavior. Experienced in full-stack development, AI/ML, and product management. Especially interested in AI. 
           </p>
 
           {/* Tech logo grid */}
