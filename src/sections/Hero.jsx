@@ -13,7 +13,7 @@ export default function Hero() {
           Hi, I am <span className="bg-gradient-to-r from-pink-400 to-pink-200 bg-clip-text text-transparent">Anvi</span>
         </h1>
         <p className="max-w-2xl text-balance text-base leading-relaxed text-white/70 sm:text-lg">
-         Website still under construction. Check back soon for updates!
+         Website still under construction. Please check back soon for updates!
         </p>
         <div className="mt-8 flex gap-3">
           <a href="#projects" className="rounded-xl bg-white px-4 py-2 text-sm text-black transition hover:opacity-90">View projects</a>
