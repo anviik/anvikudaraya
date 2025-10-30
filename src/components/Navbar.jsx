@@ -20,12 +20,6 @@ export default function Navbar() {
               </li>
             ))}
           </ul>
-          <a
-            href="#contact"
-            className="rounded-xl border border-white/10 px-3 py-1.5 text-sm font-medium transition hover:bg-white/5"
-          >
-            Get in touch
-          </a>
         </div>
       </nav>
     </header>
