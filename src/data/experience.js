@@ -12,7 +12,7 @@ const EXPERIENCE = [
     title: 'Technical Product Manager and Software Developer',
     org: 'Google Developer Student Clubs',
     date: 'July 2025 - Present',
-    logo: 'public/logos/gdsc.png',
+    logo: 'logos/gdsc.png',
     points: [
       'Leading a five-member team to build a full-stack campus carpooling app (React, FastAPI, PostgreSQL) for students with Stripe payments and AWS deployment.'
     ]
@@ -21,7 +21,7 @@ const EXPERIENCE = [
     title: 'UC Merced Senator, At-Large',
     org: 'Associated Students of UC Merced',
     date: 'May 2025 - Present',
-    logo: 'public/logos/asucm.png',
+    logo: 'logos/asucm.png',
     points: [
       'Elected to represent 9,000+ students, managing a seven-figure budget to fund campus programs and shape policy for student advocacy and research initiatives.'
     ]
@@ -30,7 +30,7 @@ const EXPERIENCE = [
     title: 'Founder & President',
     org: '180 Degrees Consulting – UC Merced',
     date: 'October 2024 - Present',
-    logo: '/public/logos/180.png',
+    logo: 'logos/180.png',
     points: [
       'Founded UC Merced’s first consulting club, leading 6+ client projects in tech and strategy; developed an AI-powered telehealth chatbot using Next.js and PyTorch.'
     ]
@@ -39,7 +39,7 @@ const EXPERIENCE = [
     title: 'Undergraduate Researcher',
     org: 'University of California, Merced',
     date: 'August 2024 - Present',
-    logo: '/public/logos/ucm.png',
+    logo: 'logos/ucm.png',
     points: [
       'Developing an RL model to optimize irrigation in almond orchards; automated sensor data workflows via Flask, CouchDB, and Pandas reducing prep time by 80%.'
     ]
@@ -48,7 +48,7 @@ const EXPERIENCE = [
     title: 'Learning Assistant',
     org: 'University of California, Merced',
     date: 'August 2024 - Present',
-    logo: '/public/logos/merced.png',
+    logo: 'logos/merced.png',
     points: [
       'Co-teaching Calculus I–II for 250+ students; lead office hours and review sessions to strengthen problem-solving and conceptual understanding.'
     ]
@@ -57,7 +57,7 @@ const EXPERIENCE = [
     title: 'Algorithm Design Theory Researcher',
     org: 'National Science Foundation (NCSU)',
     date: 'May 2025 - July 2025',
-    logo: '/public/logos/nsf.png',
+    logo: 'logos/nsf.png',
     points: [
       'Designed Greedy Range Trees and Greedy Trees for Product Metrics; proved efficiency via simulations and co-authored a research paper for conference submission.'
     ]
