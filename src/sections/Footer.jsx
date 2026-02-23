@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="flex flex-wrap items-center justify-between gap-2">
           <p className="text-white/70">© {new Date().getFullYear()} Anvi Kudaraya</p>
           <div className="flex items-center gap-3">
-            <a href="#contact" className="hover:underline">Contact</a>
+            <a href="#contact" target="_blank" rel="noreferrer" className="hover:underline">Contact</a>
           </div>
         </div>
       </div>

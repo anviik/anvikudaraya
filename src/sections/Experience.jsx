@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { container } from '../lib/anim.js'
 import EXPERIENCE from '../data/experience.js'
 
-function TimelineItem({ title, org, date, points, logo, link, skills = [], align = 'left' }) {
+function TimelineItem({ title, org, date, points, logo, logoClass, link, skills = [], align = 'left' }) {
   const Wrapper = link ? 'a' : 'div'
   const wrapperProps = link ? { href: link, target: '_blank', rel: 'noreferrer' } : {}
   return (
@@ -59,10 +59,10 @@ function TimelineItem({ title, org, date, points, logo, link, skills = [], align
           >
             {link ? (
               <a href={link} target="_blank" rel="noreferrer" className="block h-full w-full">
-                <img src={logo} alt="logo" className="h-full w-full rounded-full object-contain" />
+                <img src={logo} alt="logo" className={`h-full w-full rounded-full object-contain ${logoClass || ''}`} />
               </a>
             ) : (
-              <img src={logo} alt="logo" className="h-full w-full rounded-full object-contain" />
+              <img src={logo} alt="logo" className={`h-full w-full rounded-full object-contain ${logoClass || ''}`} />
             )}
           </motion.div>
         </div>
@@ -119,10 +119,10 @@ function TimelineItem({ title, org, date, points, logo, link, skills = [], align
           <div className="flex h-11 w-11 items-center justify-center overflow-hidden rounded-full border border-white/40 bg-white/10 p-1 shadow-[0_0_12px_rgba(255,255,255,0.18)]">
             {link ? (
               <a href={link} target="_blank" rel="noreferrer" className="block h-full w-full">
-                <img src={logo} alt="logo" className="h-full w-full rounded-full object-contain" />
+                <img src={logo} alt="logo" className={`h-full w-full rounded-full object-contain ${logoClass || ''}`} />
               </a>
             ) : (
-              <img src={logo} alt="logo" className="h-full w-full rounded-full object-contain" />
+              <img src={logo} alt="logo" className={`h-full w-full rounded-full object-contain ${logoClass || ''}`} />
             )}
           </div>
           <div className="flex-1">

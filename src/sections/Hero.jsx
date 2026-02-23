@@ -32,8 +32,8 @@ export default function Hero() {
         </p>
         <div className="flex flex-col gap-6 items-center">
           <div className="flex gap-3">
-            <a href="#experience" className="rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-black transition hover:opacity-90">View experience</a>
-            <a href="#contact" className="rounded-full border border-white/15 px-5 py-2.5 text-sm text-white/85 transition hover:border-white/30 hover:bg-white/5">Contact</a>
+            <a href="#experience" target="_blank" rel="noreferrer" className="rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-black transition hover:opacity-90">View experience</a>
+            <a href="#contact" target="_blank" rel="noreferrer" className="rounded-full border border-white/15 px-5 py-2.5 text-sm text-white/85 transition hover:border-white/30 hover:bg-white/5">Contact</a>
           </div>
           
           <div className="flex gap-4">

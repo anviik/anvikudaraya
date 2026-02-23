@@ -14,7 +14,7 @@ export default function Navbar() {
       <nav className="rounded-2xl border border-white/10 bg-white/[0.06] px-4 py-2 shadow-[0_0_30px_rgba(0,0,0,0.2)] backdrop-blur-xl sm:px-6">
         <div className="flex flex-col gap-3">
           <div className="flex items-center justify-between">
-            <a href="#home" className="group flex items-center gap-3">
+            <a href="#home" target="_blank" rel="noreferrer" className="group flex items-center gap-3">
               <span className="flex h-9 w-9 items-center justify-center rounded-full border border-white/15 bg-white/[0.08] text-sm font-semibold tracking-wide text-white/90 transition group-hover:border-white/30">
                 AK
               </span>
@@ -34,24 +34,28 @@ export default function Navbar() {
               </span>
             </button>
             <ul className="hidden items-center gap-4 sm:flex">
-            {links.map((l) => (
-              <li key={l.href}>
+              {links.map((l) => (
+                <li key={l.href}>
+                  <a
+                    href={l.href}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-xs text-white/70 transition hover:text-white sm:text-sm"
+                  >
+                    {l.label}
+                  </a>
+                </li>
+              ))}
+              <li>
                 <a
-                  href={l.href}
-                  className="text-xs text-white/70 transition hover:text-white sm:text-sm"
+                  href="public/AnviKudarayaEngExpoResume - Google Docs.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="rounded-full border border-white/15 bg-white/[0.06] px-3 py-1.5 text-xs text-white/80 transition hover:border-white/30 hover:text-white sm:px-4 sm:text-sm"
                 >
-                  {l.label}
+                  Resume
                 </a>
               </li>
-            ))}
-            <li>
-              <a
-                href="public/AnviKudarayaEngExpoResume - Google Docs.pdf"
-                className="rounded-full border border-white/15 bg-white/[0.06] px-3 py-1.5 text-xs text-white/80 transition hover:border-white/30 hover:text-white sm:px-4 sm:text-sm"
-              >
-                Resume
-              </a>
-            </li>
             </ul>
           </div>
           {open ? (
@@ -60,6 +64,8 @@ export default function Navbar() {
                 <li key={l.href}>
                   <a
                     href={l.href}
+                    target="_blank"
+                    rel="noreferrer"
                     onClick={() => setOpen(false)}
                     className="text-xs text-white/70 transition hover:text-white"
                   >
@@ -70,6 +76,8 @@ export default function Navbar() {
               <li>
                 <a
                   href="public/AnviKudarayaNov2025.pdf"
+                  target="_blank"
+                  rel="noreferrer"
                   onClick={() => setOpen(false)}
                   className="rounded-full border border-white/15 bg-white/[0.06] px-3 py-1.5 text-xs text-white/80 transition hover:border-white/30 hover:text-white"
                 >

@@ -4,15 +4,21 @@ import { container, item } from '../lib/anim.js'
 import { useRef } from 'react'
 import PROJECTS from '../data/projects.js'
 
-function ProjectCard({ title, desc, tags, link, image }) { // Added image prop
+function ProjectCard({ title, desc, tags, link, image, imageClass }) {
   return (
     <motion.a
       variants={item}
       href={link}
+      target="_blank"
+      rel="noreferrer"
       className="group relative block min-w-[85%] snap-center overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur transition hover:-translate-y-1 hover:shadow-lg sm:min-w-[60%] md:min-w-[45%] lg:min-w-[32%] xl:min-w-[31%]"
       whileHover={{ scale: 1.01 }}
     >
-      <img src={image} alt={title} className="mb-4 h-28 w-full rounded-xl object-cover" /> {/* Added image */}
+      <img
+        src={image}
+        alt={title}
+        className={`mb-4 h-28 w-full rounded-xl bg-white/[0.04] ${imageClass || 'object-cover'}`}
+      />
       <h3 className="mb-1 text-lg font-semibold">{title}</h3>
       <p className="mb-4 text-sm text-white/70">{desc}</p>
       <div className="flex flex-wrap gap-2">

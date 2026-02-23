@@ -26,6 +26,8 @@ export default function Contact() {
         <div className="mt-8 flex flex-wrap items-center gap-4">
           <a
             href="mailto:anvikudaraya417@gmail.com"
+            target="_blank"
+            rel="noreferrer"
             className="inline-flex items-center gap-3 rounded-full border border-white/15 bg-white/90 px-5 py-2.5 text-sm font-semibold text-black transition hover:opacity-90"
           >
             Email
@@ -36,6 +38,8 @@ export default function Contact() {
         <div className="mt-8 flex items-center gap-5 text-white/70">
           <a
             href="tel:+15105652631"
+            target="_blank"
+            rel="noreferrer"
             className="flex items-center gap-2 text-sm transition hover:text-white"
             aria-label="Phone"
           >
