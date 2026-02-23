@@ -54,7 +54,7 @@ export default function Hero() {
               <FaLinkedin className="w-8 h-8" />
             </a>
             <a
-              href="public/AnviKudarayaNov2025.pdf"
+              href="public/AnviKudarayaEngExpoResume - Google Docs.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full border border-white/10 hover:bg-white/10 transition-colors"

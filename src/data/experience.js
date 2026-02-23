@@ -46,7 +46,7 @@ const EXPERIENCE = [
   },
   {
     title: 'AI/ML Extern',
-    org: 'Outamation',
+    org: 'Outamation (through Extern)',
     date: 'November 2025 - Present',
     logo: '/logos/outamation.png',
     link: '',

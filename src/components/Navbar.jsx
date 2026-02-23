@@ -46,7 +46,7 @@ export default function Navbar() {
             ))}
             <li>
               <a
-                href="public/AnviKudarayaNov2025.pdf"
+                href="public/AnviKudarayaEngExpoResume - Google Docs.pdf"
                 className="rounded-full border border-white/15 bg-white/[0.06] px-3 py-1.5 text-xs text-white/80 transition hover:border-white/30 hover:text-white sm:px-4 sm:text-sm"
               >
                 Resume
