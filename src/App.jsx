@@ -9,7 +9,7 @@ import Footer from './sections/Footer.jsx'
 
 export default function App() {
   return (
-    <div className="min-h-screen scroll-smooth bg-black text-white">
+    <div className="relative min-h-screen scroll-smooth text-white">
       <Background />
       <Navbar />
       <main>
